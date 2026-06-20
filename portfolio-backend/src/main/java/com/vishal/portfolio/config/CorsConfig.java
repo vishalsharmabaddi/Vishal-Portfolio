@@ -16,7 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://vishal-portfolio.netlify.app"
+                                "https://vishalworld.netlify.app"
                         )
                         .allowedMethods("GET", "POST")
                         .allowedHeaders("*");
